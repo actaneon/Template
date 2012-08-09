@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
+gem 'heroku'
+
 gem 'rails', '3.2.7'
 
 # Bundle edge Rails instead:
