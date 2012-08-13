@@ -5,8 +5,47 @@ gem 'heroku'
 
 gem 'rails', '3.2.7'
 
+gem 'pry'
+gem 'pry-nav'
+gem 'awesome_print'
+
+gem 'savon'
+gem 'xml-simple'
+
+# gem 'haml'
+# gem 'json'
+#
+# gem 'rake'
+# gem 'rdoc'
+#
+# gem 'rack'
+# gem 'sinatra'
+#
+# gem 'factory_girl'
+# gem 'fakeweb'
+# gem 'vcr'
+# gem 'highline'
+#
+# gem 'delayed_job'
+# gem 'hiredis'
+# gem "redis", :require => ["redis/connection/hiredis", "redis"]
+# gem 'resque', '>= 1.19.0', :require => 'resque/server'
+# gem 'resque-retry'
+# gem "redis-namespace", '~> 1.0.2'
+#
+
+group :development do
+  gem 'thin'
+end
+
 group :development, :test do
-  gem 'sqlite3'
+  gem 'pg'
+end
+
+group :test do
+  gem "rspec-rails"
+  gem "autotest"
+  gem "autotest-rails"
 end
 
 group :production do
@@ -41,3 +80,4 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+# gem 'ruby-debug19', :require => 'ruby-debug'
