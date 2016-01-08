@@ -1,14 +1,15 @@
 source 'https://rubygems.org'
 
-ruby '2.1.2'
+ruby '2.3.0'
 
 gem 'unicorn'
-gem 'rails', '4.0.0'
+gem 'rails', '4.2.5'
 gem 'foreman'
 
 gem 'pry-rails'
 gem 'pry-byebug'
-
+gem 'pry-remote'
+gem 'pry-stack_explorer'
 gem 'awesome_print'
 
 gem 'savon'
@@ -60,8 +61,8 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 4.0.0'
-  gem 'coffee-rails', '~> 4.0.0'
+  gem 'sass-rails'
+  gem 'coffee-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -76,9 +77,6 @@ gem 'jquery-rails'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
