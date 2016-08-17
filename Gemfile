@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 gem 'puma'
-gem 'rails', '4.2.5'
+gem 'rails', '5.0.0'
 gem 'foreman'
 
 gem 'pry-rails'
@@ -18,6 +18,7 @@ gem 'xml-simple'
 
 # gem 'haml'
 # gem 'json'
+# gem 'rabl'
 #
 # gem 'rake'
 # gem 'rdoc'
@@ -71,6 +72,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
