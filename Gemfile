@@ -41,6 +41,7 @@ gem 'xml-simple'
 
 group :development do
   gem 'thin'
+  gem 'listen'
 end
 
 group :development, :test do
