@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.5.1'
 
 gem 'puma'
-gem 'rails', '5.1.4'
+gem 'rails', '5.2.0'
 gem 'foreman'
 
 gem 'pry-rails'
